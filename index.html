@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/styles/styles.css">
+  <title>Password Generator</title>
+</head>
+<body>
+  <main>
+    <div class="password-display">2132sadsa12312</div>
+
+    <form>
+      <div class="form-group">
+        <label>Quantidade de caracteres</label>
+        <input type="number" min="1" max="50">
+      </div>
+      <div class="form-group">
+        <label>Letras maiúsculas</label>
+        <input type="checkbox" class="chk-uppercase">
+      </div>
+      <div class="form-group">
+        <label>Letras minúsculas</label>
+        <input type="checkbox" class="chk-lowercase">
+      </div>
+      <div class="form-group">
+        <label>Incluir números</label>
+        <input type="checkbox" class="chk-numbers">
+      </div>
+      <div class="form-group">
+        <label>Incluir símbolos</label>
+        <input type="checkbox" class="chk-symbols">
+      </div>
+      
+      <button type="submit">Gerar Senha</button>
+    </form>
+  </main>
+</body>
+</html>
